@@ -1,0 +1,7 @@
+version: '2.1'
+services:
+  gerenciador-angular:
+    image: gerenciador-angular
+    build: .
+    ports:
+      - 8082:80
